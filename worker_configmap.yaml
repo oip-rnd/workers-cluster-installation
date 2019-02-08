@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: worker-config
+type: Opaque
+data:
+  OPERETO_PASSWORD: "add base64 encoded username here"
+  OPERETO_USERNAME: "add base64 encoded password here"
